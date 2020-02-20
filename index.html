@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Daily Journal</h1>
+<form action="">
+    <fieldset class="journalEntry">
+        <label for="JournalEntry">Date</label>
+        <input type="date" name="journal Date" id="JournalDate">
+    </fieldset>
+
+    <fieldset class="journalEntry">
+        <label for="JournalEntry">Date of Entry</label>
+        <input type="text" name="dateOfEntry" id="dateOfEntry">
+    </fieldset>
+
+    
+    <fieldset class="journalEntry">
+        <label for="JournalEntry">Concepts Covered</label>
+        <input type="text" name="conceptsCovered" id="conceptsCovered">
+    </fieldset>
+
+    
+    <fieldset class="journalEntry">
+        <label for="JournalEntry">Journal Entry</label>
+        <!-- <input type="text"  name="JournalEntry" id="cJournalEntry"> -->
+        <textarea name="paragraph_text" cols="20" rows="5"></textarea>
+    </fieldset>
+
+    
+    <fieldset class="journalEntry">
+        <label for="JournalEntry">Mood for the day</label>
+        <input list="Mood" type="text">
+        <datalist id="Mood">
+            <option value="sad"></option>
+            <option value="ok"></option>
+            <option value="happy"></option>
+        </datalist>
+    </fieldset>
+
+    <!-- <fieldset> -->
+        <button type="button">Record Journal Entry</button>
+    <!-- </fieldset> -->
+</form>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

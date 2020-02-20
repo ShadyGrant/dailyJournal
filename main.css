@@ -1,0 +1,9 @@
+.journalEntry{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    width: 30em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:10px;
+}
